@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>拙者 weather.</title>
+</head>
+
+<body>
+
+    <div class="weather-app">
+        <div class="contrainer">
+            <h3 class="brand">拙者 weather.</h3>
+
+            <div>
+                <div class="tempreture">
+                    <h1 class="temp1">16&#176;</h1>
+
+                    <span class="temp2">/16&#176;</span>
+
+                    <div class="weather">
+                        <img src="./icons/day/113.png" class="icon" alt="icon" width="50" height="50">
+                        <span class="condition">Cloudy</span>
+                    </div>
+                </div>
+
+                <div class="city-time">
+                    <h1 class="name">Hong Kong</h1>
+                    <small class="weekandtime">
+                        <span class="time">06:09</span>
+                        -
+                        <span class="date">
+                            Monday Sep 19
+                        </span>
+                    </small>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="panel">
+
+            <form id="locationInput">
+                <input type="text" class="search" placeholder="Search Location.">
+                <button type="submit" class="submit">
+                    <ion-icon name="search"></ion-icon>
+                </button>
+            </form>
+
+            <ul class="cities">
+                <li class="city">Hong Kong</li>
+                <li class="city">London</li>
+                <li class="city">New York</li>
+                <li class="city">Peking</li>
+                <li class="city">Tokyo</li>
+            </ul>
+
+            <ul class="details">
+                <h4>Weather Details</h4>
+
+                <li>
+                    <span>Cloudy</span>
+                    <span class="cloud">89%</span>
+                </li>
+
+                <li>
+                    <span>Humidity</span>
+                    <span class="humidity">64%</span>
+                </li>
+
+                <li>
+                    <span>Wind</span>
+                    <span class="wind ">8km/h</span>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script src="./main.js"></script>
+
+
+</body>
+
+</html>
